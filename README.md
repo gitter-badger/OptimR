@@ -39,7 +39,7 @@ sudo -H pip3 install virtualenv django
 ## Initialize the project
 Clone the repository with `git clone git@github.com:Pawamoy/OptimR optimr`, or
 `git clone https://github.com/Pawamoy/OptimR optimr` if you did not configure
-your SSH access to GitHub.
+your SSH access to GitHub. Enter the repository: `cd optimr`.
 
 First you need to create a virtualenv for the project with `virtualenv -p
 python3.6 venv`, where you can specify another version of Python, and the path
@@ -50,7 +50,7 @@ your system, refer to the [Python 3 installation procedure](#install-python-3).
 You can now activate your virtualenv with `. venv/bin/activate`. Install the
 Python packages dependencies with `pip install -r requirements.txt`.
 
-Go into the django project with `cd optimr/optimr`, and create the SQLite
+Go into the django project with `cd optimr`, and create the SQLite
 database with `./manage.py migrate`. Also create a super user with `./manage.py
 createsuperuser`. Now you can start the application anytime you want by
 running `./manage.py runserver` and going at `localhost:8000` in your browser.
