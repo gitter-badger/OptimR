@@ -99,3 +99,9 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# jetbrains IDEs
+.idea
+
+# default django database
+db.sqlite3
