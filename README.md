@@ -1,5 +1,7 @@
 # OptimR
 
+[![Join the chat at https://gitter.im/Pawamoy/OptimR](https://badges.gitter.im/Pawamoy/OptimR.svg)](https://gitter.im/Pawamoy/OptimR?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 - [Install Shiny Server](#install-shiny-server)
     - [On Debian](#shiny-on-debian)
 - [Install Django](#install-django)
